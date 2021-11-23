@@ -1,0 +1,1124 @@
+/*################################################### 
+#START
+
+
+RESPONSIVE DEVICE
+=============================
+=============================
+
+1. 1400px devices
+    #home-one-1400-------------------]
+        1.1-1400 banner area here
+        1.2-1400 review area here
+        1.3-1400 video area here
+        1.4-1400 level area here
+        1.5-1400 screen area here
+        1.6-1400 abBanner area here
+        1.7-1400 Text And Content Area here
+        1.8-1400 contact area here
+        1.9-1400 pressRoom area here
+
+	
+
+2. 1200 xlarge devices
+    #home-1200-------------------]
+        2.1-1200 banner area here
+        2.2-1200 review area here
+        2.3-1200 level area here
+        2.4-1200 video area here
+        2.5-1200 screen area here
+        2.6-1200 review area here
+        2.7-1200 blogBanner area here
+        2.8-1200 Text And Content Area here
+        2.9-1200 contact mail area here
+        2.10-1200 pressRoom area here
+        2.11-1200 contact area here
+
+
+3. 992px large devices
+    #home-one-992-------------------]
+        3.1-992 banner area here
+        3.2-992 video area here
+        3.3-992 level area here
+        3.4-992 footer area here
+        3.5-992 screen area here
+        3.6-992 review area here
+        3.7-992 abBanner area here
+        3.8-992 contact area here
+        3.9-992 pressRoom area here
+	
+	
+4. 768px medium devices
+    #home-one-768-------------------]
+        4.1-768 banner area here
+        4.2-768 review area here
+        4.3-768 footer area here
+        4.4-768 Text And Content Area here
+        4.5-768 contact mail area here
+        4.6-768 pressRoom area here
+	
+
+5. 576px small devices
+    #home-one-576-------------------]
+        5.1-576 header area here
+        5.2-576 banner area here
+        5.3-576 review area here
+        5.4-576 video area here
+        5.5-576 level area here
+        5.6-576 footer area here
+        5.7-576 screen area here
+        5.8-576 abBanner area here
+        5.9-576 blog-details area here
+        5.10-576 contact mail area here
+
+
+#theEND
+###################################################*/
+
+/*##############################
+Extra large: ---------
+1. 1400px devices
+##############################*/
+@media screen and (min-width: 1400px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      max-width: 1140px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  /* 
+    #home-one-1400-------------------]
+    */
+  /*********************** 
+    1.1-1400 banner area here
+    ***********************/
+  .banner {
+    padding: 140px 0px 100px;
+  }
+  .bannerImg img {
+    max-width: 80%;
+  }
+  .bannerContent h1 {
+    margin-bottom: 20px;
+    font-size: 48px;
+    line-height: 54px;
+  }
+  .bannerContent p {
+    margin-bottom: 24px;
+  }
+  /*********************** 
+  1.2-1400 review area here
+  ***********************/
+  .title h2 {
+    line-height: 58px;
+  }
+
+  .reviewTitle {
+    margin-bottom: 60px;
+  }
+
+  /* review slider  */
+  .rcs-nav-item p:first-child {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+  .rcs-nav-item h2 {
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 6px;
+  }
+  .rcs-nav .slick-list {
+    padding-bottom: 30px;
+  }
+  .rcs-nav ul.slick-dots li {
+    width: 14px;
+    height: 14px;
+  }
+  .rcs-nav-item p:last-child {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  
+
+  /*********************** 
+  1.3-1400 video area here
+  ***********************/
+  .ratting {
+    margin-left: 90px;
+  }
+  .videoContent {
+    max-width: 800px;
+}
+  .videoContent a {
+    width: 70px;
+    height: 70px;
+  }
+  .videoContent a i {
+    color: var(--white);
+    font-size: 16px;
+  }
+
+  /*********************** 
+  1.4-1400 level area here
+  ***********************/
+  .level,
+  .review,
+  .video,
+  .screen {
+    padding: 100px 0px;
+  }
+
+  .levelContent h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 30px;
+  }
+  .levelImg img {
+    max-width: 80%;
+  }
+
+  /*********************** 
+  1.5-1400 screen area here
+  ***********************/
+  .swiper-slide {
+    width: 210px;
+  }
+  .swiperMobile {
+    width: 230px;
+  }
+  .swiper-button-next,
+  .swiper-container-rtl .swiper-button-prev {
+    margin-right: -127px;
+  }
+  .swiper-button-prev,
+  .swiper-container-rtl .swiper-button-next {
+    margin-left: -127px;
+  }
+  .swiper-button-prev:after,
+  .swiper-container-rtl .swiper-button-next:after {
+    width: 20px;
+    height: 20px;
+  }
+  .swiper-button-next:after,
+  .swiper-container-rtl .swiper-button-prev:after {
+    width: 20px;
+    height: 20px;
+  }
+
+  /*********************** 
+  1.6-1400 abBanner area here
+  ***********************/
+  .abBanner-img {
+    margin-left: 0;
+  }
+  .abBanner-img img {
+    max-width: 90%;
+  }
+  .abBanner, .blogBanner {
+    padding: 140px 0px 100px;
+  }
+  .abBanner-content h2 {
+    margin-bottom: 20px;
+    font-size: 42px;
+    line-height: 52px;
+  }
+  .abBanner-content p {
+    line-height: 33px;
+    font-size: 18px;
+  }
+  .abBanner-content p:last-child {
+    margin-top: 20px;
+  }
+
+  .blogBanner-content h2 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  h2.blog-d-header {
+    font-size: 42px;
+    line-height: 52px;
+  }
+  .blog-content-box .info h2 {
+    font-size: 24px;
+    line-height: 34px;
+    margin: 40px 0px 20px 0px;
+  }
+  .bdc-meta p {
+    font-size: 18px;
+    line-height: 32px;
+    padding-right: 16px;
+  }
+  .blog-content-box .info p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 32px;
+    padding-right: 16px;
+  }
+  .blogArea {
+    padding-bottom: 100px;
+  }
+  .single-blog-details hr {
+    margin: 60px auto 60px !important;
+  }
+  /*********************** 
+  1.7-1400 Text And Content Area here
+  ***********************/
+  .license-text-content h2 {
+    font-size: 42px;
+    line-height: 52px;
+    margin-bottom: 14px;
+  }
+  .license-text-content p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .condition-area {
+    padding: 140px 0px 100px;
+  }
+  .sbd-content-blog {
+    grid-gap: 36px;
+    -o-grid-gap: 36px;
+    -ms-grid-gap: 36px;
+    -moz-grid-gap: 36px;
+    -webkit-grid-gap: 36px;
+  }
+
+  /*********************** 
+  1.8-1400 contact area here
+  ***********************/
+  .contact {
+    padding-bottom: 100px;
+  }
+  .cm-item {
+    border-radius: 18px;
+    padding: 40px 24px;
+  }
+  .cm-item ul li:first-child {
+    border-radius: 16px;
+    width: 100px;
+    height: 100px;
+  }
+  .cm-item ul li.content h4 {
+    font-size: 24px;
+  }
+  .contact-mail {
+    padding-bottom: 100px;
+  }
+
+  /*********************** 
+  1.9-1400 pressRoom area here
+  ***********************/
+  .pressRoom {
+    padding: 140px 0px 60px;
+  }
+  .pr-items .room h2 {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .pr-content {
+    padding-right: 60px;
+  }
+  .pr-custom .content h2 {
+    font-size: 42px;
+    line-height: 52px;
+  }
+  .pr-custom .content a {
+    margin-top: 40px;
+  }
+  .pr-custom {
+    grid-gap: 116px;
+  }
+  .pressNews {
+    padding-bottom: 100px;
+  }
+
+  /* download  */
+  .l-download {
+    padding: 140px 0px 100px !important;
+  }
+  /* video  */
+  .v-video{
+    padding: 140px 0px 100px !important;
+  }
+
+  /* header  */
+  .header {
+    top: 10px;
+  }
+  .headerLogo a img {
+    max-width: 80%;
+  }
+  .headerbutton a {
+    padding: 0;
+    margin-left: 24px;
+    font-size: 18px;
+  }
+}
+
+/*############################## 
+Extra large: ---------
+2. 1200 xlarge devices
+##############################*/
+@media screen and (max-width: 1200px) {
+  /* 
+  #home-one-1200-------------------]
+  */
+  /*********************** 
+  2.1-1200 banner area here
+  ***********************/
+  .bannerContent h1 {
+    font-size: 44px;
+    line-height: 54px;
+  }
+  .bannerContent p {
+    margin-bottom: 24px;
+    line-height: 32px;
+  }
+  .bannerImg {
+    margin-left: 40px;
+  }
+
+  /*********************** 
+  2.2-1200 review area here
+  ***********************/
+  .title h2 {
+    line-height: 40px !important;
+    font-size: 30px !important;
+  }
+
+  .abBanner-content h2 {
+    line-height: 40px;
+    font-size: 30px;
+  }
+
+  /* review slider  */
+  .ris-nav .slick-slide .ris-nav-item {
+    width: 80px !important;
+  }
+  .ris-nav .slick-slide.slick-current.slick-active.slick-center .ris-nav-item {
+    width: 120px !important;
+  }
+  .rcs-nav-item p:first-child {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+  .rcs-nav-item h2 {
+    font-size: 24px;
+    line-height: 100%;
+  }
+  .rcs-nav .slick-list {
+    padding-bottom: 24px;
+  }
+  .rcs-nav-item p:last-child {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+
+  /*********************** 
+  2.3-1200 level area here
+  ***********************/
+  .levelContent h1 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 30px;
+  }
+  .levelImg {
+    margin-right: -50px;
+  }
+
+  /*********************** 
+  2.4-1200 video area here
+  ***********************/
+  .videoTitle p {
+    line-height: 30px;
+  }
+  .message {
+    margin-bottom: -188px;
+  }
+  .videoContent {
+    max-width: 550px;
+  }
+  /*********************** 
+  2.5-1200 screen area here
+  ***********************/
+  .screenTitle {
+    margin-bottom: 40px !important;
+  }
+  .swiper-slide {
+    width: 185px;
+  }
+  .swiperMobile {
+    width: 202px;
+  }
+  .swiper-button-next,
+  .swiper-container-rtl .swiper-button-prev {
+    margin-right: -113px;
+  }
+  .swiper-button-prev,
+  .swiper-container-rtl .swiper-button-next {
+    margin-left: -113px;
+  }
+
+  /*********************** 
+  2.6-1200 review area here
+  ***********************/
+
+
+  /*********************** 
+  2.7-1200 blogBanner area here
+  ***********************/
+  .blogBanner-content h2,
+  h2.blog-d-header {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .blogBanner-content p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .blog-content-box {
+    margin-bottom: 60px;
+  }
+  .sb-img a img {
+    margin-left: 0px;
+    margin-top: 0;
+  }
+  .sb-meta {
+    margin-left: 0px;
+  }
+  .sb-content {
+    margin-left: 0;
+  }
+  .single-blog {
+    margin-bottom: 24px;
+  }
+  .blog-content-box h2.blogHeader {
+    margin-bottom: 40px;
+  }
+  .sbd-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sbd-items {
+    margin-bottom: 16px;
+  }
+  ul.sc-list li a {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .bdc-share ul li:first-child {
+    margin-right: 0;
+  }
+  .bdc-share ul li:last-child {
+    margin-left: 8px;
+  }
+
+  .blog-sidebar {
+    margin-left: 0;
+  }
+  /*********************** 
+  2.8-1200 Text And Content Area here
+  ***********************/
+  .license-text-content h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .license-text-content p {
+    padding-bottom: 30px;
+  }
+
+  /*********************** 
+  2.9-1200 contact mail area here
+  ***********************/
+  .cm-items {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+    -o-grid-gap: 24px;
+    -ms-grid-gap: 24px;
+    -moz-grid-gap: 24px;
+    -webkit-grid-gap: 24px;
+  }
+
+  /*********************** 
+  2.10-1200 pressRoom area here
+  ***********************/
+  .pr-items .room h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .pr-custom .content h2 {
+    font-size: 30px;
+    line-height: 44px;
+  }
+  .pr-content {
+    padding-right: 24px;
+  }
+  .pn-content h4 {
+    line-height: 44px;
+  }
+
+  /*********************** 
+  2.11-1200 contact area here
+  ***********************/
+  .contact-map {
+    padding-bottom: 0;
+    padding-right: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .contact-form.wow.fadeInUpBig {
+    margin-top: 60px;
+  }
+}
+
+/*############################## 
+large layout:  --------- 
+3. 992px large devices
+##############################*/
+@media screen and (max-width: 991px) {
+  /* 
+  #home-one-992-------------------]
+  */
+  /*********************** 
+  3.1-992 banner area here
+  ***********************/
+  .bannerContent h1 {
+    font-size: 39px;
+    line-height: 49px;
+  }
+  .bannerImg {
+    margin-left: 0;
+    text-align: center;
+  }
+  .level,
+  .footer,
+  .review,
+  .video,
+  .screen {
+    padding: 60px 0px;
+  }
+  .condition-area {
+    padding: 140px 0px 60px;
+  }
+
+  /*********************** 
+  3.2-992 video area here
+  ***********************/
+  .videoContent::after {
+    width: 80px;
+    height: 80px;
+    top: 27px;
+    right: -27px;
+  }
+  .videoContent a {
+    width: 60px;
+    height: 60px;
+  }
+  .videoContent a i {
+    font-size: 14px;
+  }
+  .message {
+    margin: 0 auto 20px;
+  }
+  .ratting {
+    margin: 20px auto 0;
+  }
+
+  /*********************** 
+  3.3-992 level area here
+  ***********************/
+  .levelItems {
+    grid-template-columns: auto;
+    grid-gap: 60px;
+  }
+  .levelContent {
+    text-align: center;
+  }
+  .levelContent ul {
+    justify-content: center;
+  }
+  .levelImg {
+    margin-right: 0;
+    text-align: center;
+  }
+  .levelImg img {
+    float: inherit;
+    max-width: 90%;
+  }
+
+  /*********************** 
+  3.4-992 footer area here
+  ***********************/
+  .footerItems {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+  }
+  .footerContent > ul > li:first-child {
+    margin-bottom: 22px;
+  }
+  .footerIcon > li ul {
+    justify-content: start;
+  }
+  .footerIcon > li ul li {
+    margin-left: 0;
+    margin-right: 12px;
+  }
+  .footerIcon > li p {
+    text-align: start;
+  }
+
+  /*********************** 
+  3.5-992 screen area here
+  ***********************/
+
+  /*********************** 
+  3.6-992 review area here
+  ***********************/
+
+
+  /*********************** 
+  3.7-992 abBanner area here
+  ***********************/
+  .abBanner-img img {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+  .blogArea {
+    padding-bottom: 60px;
+  }
+
+  /*********************** 
+  3.8-992 contact area here
+  ***********************/
+  .contact {
+    padding-bottom: 60px;
+  }
+  .contact-mail {
+    padding-bottom: 60px;
+  }
+
+  /*********************** 
+  3.9-992 pressRoom area here
+  ***********************/
+  .pr-custom {
+    grid-template-columns: auto;
+    grid-gap: 40px;
+  }
+  .pr-content a {
+    margin-bottom: 20px;
+  }
+  .pressNews {
+    padding-bottom: 76px;
+  }
+  .pr-items .download li a span {
+    margin-right: 10px;
+  }
+  .pr-custom .content {
+    margin-top: 0;
+  }
+
+  /* download  */
+  .l-download{
+    padding: 140px 0px 60px !important;
+  }
+  /* video  */
+  .v-video{
+    padding: 140px 0px 60px !important;
+  }
+
+}
+
+/*############################## 
+Medium Layout: ---------
+4. 768px medium devices
+##############################*/
+@media screen and (max-width: 768px) {
+  /* 
+  #home-one-768-------------------]
+  */
+  /*********************** 
+  4.1-768 banner area here
+  ***********************/
+  .banner {
+    padding: 140px 0px 60px;
+  }
+  .bannerItems {
+    grid-template-columns: auto;
+    grid-gap: 60px;
+  }
+  .bannerImg img {
+    float: inherit;
+  }
+  .bannerContent h1 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .bannerContent p {
+    margin-bottom: 24px;
+  }
+  /* header  */
+  .headerLogo a img {
+    max-width: 80%;
+  }
+  .headerbutton a {
+    padding: 0;
+    margin-left: 24px;
+  }
+  .abBanner-content h2 {
+    line-height: 42px;
+    font-size: 32px;
+  }
+
+  /*********************** 
+  4.2-768 review area here
+  ***********************/
+  .reviewTitle {
+    margin-bottom: 40px;
+  }
+
+
+  /*********************** 
+  4.3-768 footer area here
+  ***********************/
+  .footerAbout li p br {
+    display: none;
+  }
+  .blog-content-box .row .col-md-6 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .aabbro-pagination ul li a {
+    border-radius: 8px;
+    height: 30px;
+    width: 30px;
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .blog-content-box h2.blogHeader::after {
+    left: 180px;
+    top: 21px;
+    width: 70px;
+  }
+  .blog-content-box h2.blogHeader {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .sb-meta-content h2 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .sb-content p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .sb-meta-content ul {
+    margin-top: 8px;
+  }
+  .sb-meta-content ul li:first-child {
+    margin-right: 20px;
+  }
+  .aabbro-pagination ul li {
+    margin-bottom: 10px;
+  }
+
+  .sbd-content {
+    grid-template-columns: auto;
+  }
+
+  /*********************** 
+  4.4-768 Text And Content Area here
+  ***********************/
+  .atca-nav {
+    margin-bottom: 40px;
+  }
+
+  
+  /*********************** 
+  4.5-768 contact mail area here
+  ***********************/
+  .cm-items {
+    grid-template-columns: auto;
+  }
+  .cm-item ul li:first-child {
+    width: 80px;
+    height: 80px;
+  }
+  .cm-item ul li:last-child {
+    margin-left: 18px;
+  }
+  .cm-item ul li i {
+    font-size: 30px;
+  }
+
+  /*********************** 
+  4.6-768 pressRoom area here
+  ***********************/
+  .pr-items {
+    flex-direction: column;
+  }
+  .pr-items .download {
+    margin-top: 30px;
+  }
+  .pr-items {
+    margin-bottom: 20px;
+  }
+  .pr-content p {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+}
+
+/*############################## 
+Small Layout: ---------
+5. 576px small devices
+##############################*/
+@media screen and (max-width: 576px) {
+  /* 
+  #home-one-576-------------------]
+  */
+  /*********************** 
+  5.1-576 header area here
+  ***********************/
+  .header {
+    top: 0;
+  }
+  .headerbutton {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: max-content;
+    padding: 80px 40px 40px;
+    background: url("../images/homeOneImg/screenBG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .headerbutton.active {
+    display: block;
+  }
+  .headerbutton a {
+    font-size: 18px;
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  .headerbutton a:first-child {
+    margin-bottom: 0;
+  }
+  .headerbutton a:last-child {
+    margin-bottom: 0;
+  }
+
+  a.closeMenu {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  }
+  a.closeMenu.active {
+    display: none;
+  }
+  a.closeMenu i {
+    font-size: 22px;
+    color: #ffffff;
+  }
+  .nav-toggler {
+    display: block;
+    line-height: 0;
+    top: 3px;
+    position: relative;
+  }
+  .nav-toggler i {
+    font-size: 22px;
+  }
+
+  .headerLogo a img {
+    width: 120px;
+  }
+  /* all vector area display none  */
+  .vectors {
+    display: none;
+  }
+
+  /*********************** 
+  5.2-576 banner area here
+  ***********************/
+  .bannerContent {
+    text-align: center;
+  }
+  .bannerImg img {
+    max-width: 100%;
+  }
+  .bannerContent ul {
+    justify-content: center;
+  }
+  .bannerContent ul li a img {
+    width: 100px;
+    height: 32px;
+  }
+  .bannerContent h1 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .bannerContent h1 br {
+    display: none;
+  }
+  .bannerContent ul li:last-child {
+    margin-left: 12px;
+  }
+  .bannerContent p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+  /*********************** 
+  5.3-576 review area here
+  ***********************/
+
+
+
+
+
+  /* review slider  */
+  .rcs-nav-item p br {
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* other  */
+  .singleTest {
+    padding: 20px 15px 0px 15px;
+  }
+
+  /*********************** 
+  5.4-576 video area here
+  ***********************/
+  .videoTitle {
+    margin-bottom: 40px;
+  }
+  .videoTitle h2 {
+    margin-bottom: 10px;
+  }
+  .videoContent::after {
+    right: -15px;
+    top: 15px;
+  }
+
+  /*********************** 
+  5.5-576 level area here
+  ***********************/
+  .levelItems {
+    grid-gap: 60px;
+  }
+  .levelContent h1 {
+    margin-bottom: 20px;
+  }
+  .levelContent h1 br {
+    display: none;
+  }
+  .levelContent ul li:last-child {
+    margin-left: 12px;
+    margin-top: 0;
+  }
+  .levelContent ul li a img {
+    max-width: 120px;
+    height: 40px;
+  }
+
+  /*********************** 
+  5.6-576 footer area here
+  ***********************/
+  .footerItems {
+    grid-gap: 40px;
+    grid-template-columns: auto;
+  }
+  .footerContent > ul > li:first-child {
+    margin-bottom: 20px;
+  }
+  .footerContent {
+    text-align: center;
+  }
+  .footerIcon > li ul {
+    justify-content: center;
+  }
+  .footerIcon > li ul li {
+    margin: 0px 5px;
+  }
+  .footerIcon > li p {
+    text-align: center;
+  }
+
+  /*********************** 
+  5.7-576 screen area here
+  ***********************/
+  .swiper-container {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  /*********************** 
+  5.8-576 abBanner area here
+  ***********************/
+  .abBanner,
+  .blogBanner {
+    padding: 120px 0px 60px;
+  }
+
+  /*********************** 
+  5.9-576 blog-details area here
+  ***********************/
+  .sbd-meta-content h2 {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 6px;
+  }
+  .sbd-meta-content ul li {
+    font-size: 12px;
+  }
+  .sbd-meta-content ul li:last-child {
+    margin-left: 12px;
+  }
+
+  /*********************** 
+  5.10-576 contact mail area here
+  ***********************/
+  .cm-item ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cm-item ul li:last-child {
+    text-align: center;
+    margin-left: 0;
+    margin-top: 24px;
+  }
+
+}
+/*########################
+#theEndRESPONSIVE########################
+########################*/
